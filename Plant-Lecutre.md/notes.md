@@ -19,3 +19,21 @@ result with plantHealth span and waterLevel span -- Dyanmic
     * 'thirsty' -- water level < 3
     * 'healthy' -- water level >= 4 and <10
     * 'overwatered' -- water level > 10
+
+### Guess a Number App
+## Guess a Number
+* Input
+    * Guess
+* User message (<p>)
+
+# HTML Elemenets
+* input for guess (static (HTML is only))
+* button (static)
+* user message (dynamic)
+* h1 w/ the title of app (static)
+
+# State
+* User Guess
+* random Number
+* number of Guesses
+* User message (dervied)
