@@ -145,6 +145,125 @@ turqoiseButton.addEventListener('click', () => {
 })
 ```
 
-### Lab 06
+### Lab 06 Notes
 * pick a list of things to sell
 * data modeling, list of sodas.
+# steps
+* Step one make a branch each morning, merge at end of day in VS code
+    * git checkout -b lab-06
+* Start with JS
+* add name, img, calores, price
+* start with ID, name, image, price and other info can be added later. 
+``` javascript
+export const sodas = [
+    {
+       id: '1',
+       name: 'Irn Bru', 
+       img: 'https://s36737.pcdn.co/wp-content/uploads/2016/04/Hopsctch-board.jpg', 
+       calories: 250,
+       price: 2
+    },
+    {
+       id: '2',
+       name: 'Irn Bru', 
+       img: 'https://s36737.pcdn.co/wp-content/uploads/2016/04/Hopsctch-board.jpg', 
+       calories: 250,
+       price: 2
+    },
+}];
+```
+
+* start setting up HTML
+    * Build singel Dom
+    * terminal, elements, right click class, copy outer HTML for TDD Test
+# ACP
+* add file render-product.js
+``` javascript
+// TESTING THIS
+//  {
+//        id: '1',
+//        name: 'Irn Bru', 
+//        img: 'https://s36737.pcdn.co/wp-content/uploads/2016/04/Hopsctch-board.jpg', 
+//        calories: 250,
+//        price: 2
+//     }
+
+export funciton renderProduct(productObject){
+    //return some HTML
+}
+```
+# example.test.js
+``` javascript
+// IMPORT MODULES under test here:
+// import { example } from '../example.js';
+import { renderProduct } from '.js';
+import { products } from '.js';
+const test = QUnit.test;
+
+test('rednerProduct shoudl return HTML snippet', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = //string from copied element when setting up HTML
+    const prd1 = productss[0];
+    
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = renderProduct(prd1).outerHTML;
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});
+```
+* begin work on render-product.js
+render-product
+``` javascript
+import { renderProuct } from '.js.';
+import { products} from '.js.';
+const productList = document.getelementBNyId('product-list');
+for (let product of products){
+    const productCard = renderProduct(product);
+    productList.append(productCard);
+}
+```
+# another model
+``` javascript
+const fruits = [
+    {
+        id: '1',
+        name: 'granny smith',
+        color: 'green',
+        expDate: Date.now(),
+        type:'tree fruit',
+        skin: true,
+        season: 'fall',
+        pits: false
+        weight: '100g',
+    },
+    {
+        id: '2',
+        name: 'banana',
+        color: 'yellow',
+        expDate: Date.now(),
+        type:'tree fruit',
+        skin: true,
+        season: 'summer',
+        pits: false
+        weight: '100g',
+    },
+]
+```
+``` javascript
+const robots = [
+    {
+        name: 'spot',
+        manufacutre: 'Boston Dynaics',
+        type: 'dog'
+    }, 
+    {
+        name: 'Roomba',
+        manufacutre: 'iRobot',
+        type: 'vacuum'
+    },
+]
+```
