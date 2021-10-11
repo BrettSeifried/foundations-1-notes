@@ -204,7 +204,7 @@ test('rednerProduct shoudl return HTML snippet', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = //string from copied element when setting up HTML
-    const prd1 = productss[0];
+    const prd1 = products[0];
     
     //Act 
     // Call the function you're testing and set the result to a const
