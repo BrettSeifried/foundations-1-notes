@@ -51,7 +51,7 @@ const cart = [
     },
 ];
 ```
-* const findById = function (id) -- to find
+* Utils const findById = function (id) -- to find
 ``` javascript
 const findById = function (id)
 ```
@@ -92,7 +92,7 @@ example.test.js
 * deep equal will check something from an array, IE, everything from found ID.
 * import findById function.
 
-# cart
+# cart.js
 * add cart.js
 * link cart.js in <script> in cart/index.html
 * loads when page loads
