@@ -124,7 +124,7 @@ test('addProduct shoudl add a product ot he products array', (expect) =>{
     addProduct(newProduct);
 
     //assert
-    const products = getProducts();
+    products = getProducts();
     expect.equal(products.length, 6); // new length after adding this product
 })
 ```
