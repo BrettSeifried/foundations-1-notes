@@ -99,7 +99,7 @@ const apple = {
 * storage-utils.js -- hold our localStorage functions
 * fruits.js (pokemon.js) -- holds the data
 
-## Local Storage functions
+## Local Storage functions - like the ecommerce products
 
 * What is stored in local storage
 ``` javascript
