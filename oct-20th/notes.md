@@ -18,6 +18,8 @@
 # Pokemon Catcher
 * 1st part due friday
 * 2nd part due Monday
+- [ ] check box
+- [x] check box
 
 ## Lecture
 * picker
@@ -41,7 +43,7 @@
     * pick button
         * will have an event listener
     * header or something.
-* State
+* State - Results page
     * Total Plays
     * what has been picked
     * what has been shown.
@@ -116,7 +118,8 @@ const results = [
 
 ## app.js logic
 * make function called generateFruit() - know we will sue mutliple times, want to isolate into own function
-    * generate 2 rnadom fruit
+    * generate 2 rnadom fruit 
+    * While loop incase 2 numbers repeat
     * call showFruit for each
     * render the fruit on the page
 
