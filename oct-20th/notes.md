@@ -147,3 +147,8 @@ const results = [
 * loop throuhg each item in results
 * get its data from fruits.js (using findById)
 * render the results (img, header, data)
+
+## Notes on her work
+# results.js
+* link it to results page
+* 
