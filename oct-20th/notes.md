@@ -134,3 +134,16 @@ const results = [
         * redirect to results
     * else
         * call generateFruit
+
+## Results Page
+# HTML
+* for each item in results
+    * Image
+    * Header witht he name of the fruit
+    * show many times shown, how many times picked.
+
+# Results.js
+* get the data from local storage
+* loop throuhg each item in results
+* get its data from fruits.js (using findById)
+* render the results (img, header, data)
