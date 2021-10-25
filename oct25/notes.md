@@ -112,3 +112,11 @@ mySquare.classList.add(color); // add class list to change class list on HTML
 - [ ] On form submit 
     - [ ] update the user data
     - [ ] redirect to the map page
+ 
+# Julies order
+* Create Map Folder & Quest Folder
+    * add index.html and JS to each folder
+    * Set up HTML with
+        * Html 5
+        * script to that folders JS
+    * console.log('hello') each page to test JS is working.
