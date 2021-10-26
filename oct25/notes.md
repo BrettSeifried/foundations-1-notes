@@ -87,9 +87,9 @@ mySquare.classList.add(color); // add class list to change class list on HTML
 - [ ] Form Submit button
 ## Events
 - [ ] On form submit
-    - [ ] Generate a user object using the form data (generateUser)
-        - [ ] write TDD
-        - [ ] Write function - utils.js
+    - [x] Generate a user object using the form data (generateUser)
+        - [x] write TDD
+        - [x] Write function - utils.js
 
         * User Object in lab notes.
     - [ ] Store user data in localStorage (setUser)
