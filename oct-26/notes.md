@@ -9,18 +9,7 @@
 * 
 
 ## Todays goals
-- [ ] Creat findById in utils.js
-- [ ] Check julies quest.js for guide on URLsearchParams
-- [ ] Create button for choosing in quest.js
-    - [ ] event lisenter on quest page for submit.
-        * get selected chocie from chocies array (findById)
-        * get user data form localStorage
-            - [ ] write (getUser)
-        * Update the user (scoreQuest(choice, questId,user))
-            * Update the gold, hp, completed
-        * reset to localStorage (setUser)
-        * display resul0t
-        * give thema  link to go back to the map.
+ 
 
 ### New Functions
 #### getUser
